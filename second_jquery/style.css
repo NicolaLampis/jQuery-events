@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1050px;
+}
+ .box {
+    flex: 1;  /*make content controllable by flexbox */
+    display: flex;
+    flex-flow: column;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(151, 78, 78);
+ }
+ /* .makeRed {
+     background-color: red;
+ }
+
+  .makeBlue {
+     background-color: blue;
+ } */
